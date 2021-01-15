@@ -8,7 +8,7 @@ Depoya Ürün Ekleme ve Depodan Gönderilen Ürünleri Listeleyen Modülü
 ```
 'modules' => [
         'sepet' =>[
-            'class' => 'backend\modules\sepet\Module'
+            'class' => 'mustafayigit34\sepet\Module'
         ]
     ],
 ``` 
@@ -16,3 +16,5 @@ Depoya Ürün Ekleme ve Depodan Gönderilen Ürünleri Listeleyen Modülü
 3- Migration işlemini gerçekleştirmek için ssh kullanarak proje dizinine gidiniz ve aşağıdaki kod satırı ile modüldeki tabloların kurulumunu yapınız.<br>
 
 `php yii migrate/up --migrationPath=@vendor/mustafayigit34/yii2-sepet/src/migrations`
+
+Kurulum aşaması bitmiş bulunmaktadır.

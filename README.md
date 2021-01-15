@@ -82,6 +82,12 @@ Kaydedilen Ürünü Güncelleme veya Silme
     - SilinenlerSearch.php
 * views
     - sepet
-        * SepetController.ph
+        * _form.php
+        * _search.php
+        * create.php
+        * index.php
+        * silinenler.php
+        * update.php
+        * view.php
 * Module.php
 

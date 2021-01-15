@@ -25,7 +25,7 @@ http://advanced/backend/web/index.php?r=sepet/sepet/index adresinden modüle eri
 Modül içerisinde iki adet tablo bulunmaktadır ve ikisinin de içeriği şu şekildedir:
 * Depoya eklenen ürünleri ve özelliklerini tutan tablo
 * Depodan silinen ürünleri ve özelliklerini tutan tablo<br>
-İki tablo da veritipi olarak aynı değişkenleri tutmaktadır.
+İki tablo da veritipi olarak aynı değişkenleri tutmaktadır.<br>
 ![Adsız](https://user-images.githubusercontent.com/65903573/104784028-6ff67380-5798-11eb-8e36-dd9e57c76202.png)<br>
 Modül Tablolarının Genel Yapısı
 

@@ -29,3 +29,23 @@ Modül içerisinde iki adet tablo bulunmaktadır ve ikisinin de içeriği şu ş
 ![Adsız](https://user-images.githubusercontent.com/65903573/104784028-6ff67380-5798-11eb-8e36-dd9e57c76202.png)<br>
 Modül Tablolarının Genel Yapısı
 
+### Gii, Models ve CRUD:
+* Her tablo için migration ile Gii üzerinden modeller oluşturulmuştur (Sepet, SepetSearch, Silinenler, SilinenlerSearch).
+* CRUD Generator kullanılarak oluşturulan modeller üzerinde çeşitli işlemler (delete,read,update,create vb.) yapılabilmesi sağlanmıştır.
+* Modül için gerekli olan Controller (SepetController) eklenmiştir. Ayriyeten 'sepet' tablosundan silinen ürünlerin 'silinenler' tablosuna eklenmesi bu Controller içerisinde sağlanmaktadır. Aşağıda silme ve ekleme işleminin nasıl yapıldığı gösterilmiştir:
+```
+public function actionDelete($id)
+{
+    $model = $this->findModel($id);
+
+    $silModel = new Silinenler();
+    $silModel->id = $model->id;
+    $silModel->name = $model->name;
+    $silModel->category = $model->category;
+    $silModel->addingdate = $model->addingdate;
+    $silModel->save();
+
+    $this->findModel($id)->delete();
+    return $this->redirect(['index']);
+}
+```

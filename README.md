@@ -14,5 +14,5 @@ Depoya Ürün Ekleme ve Depodan Gönderilen Ürünleri Listeleyen Modülü
 ``` 
 <br>
 3- Migration işlemini gerçekleştirmek için ssh kullanarak proje dizinine gidiniz ve aşağıdaki kod satırı ile modüldeki tabloların kurulumunu yapınız.<br>
-`php yii migrate/up --migrationPath=@vendor/sevkikaragol/yii2-note/src/migrations`
+`php yii migrate/up --migrationPath=@vendor/mustafayigit34/yii2-sepet/src/migrations`
 <br>

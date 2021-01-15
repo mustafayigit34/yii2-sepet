@@ -21,6 +21,8 @@ Kurulum aşaması bitmiş bulunmaktadır.<br>
 http://advanced/backend/web/index.php?r=sepet/sepet/index adresinden modüle erişebilirsiniz.
 
 # Modül İçeriği
-## Veritabanı (Migrations):
-Modül içerisinde iki adet tablo bulunmaktadır, iki tablonun da içeriği şu şekildedir:
-- 
+## Veritabanı (Migrations)
+Modül içerisinde iki adet tablo bulunmaktadır ve ikisinin de içeriği şu şekildedir:
+* Depoya eklenen ürünleri ve özelliklerini tutan tablo
+* Depodan silinen ürünleri ve özelliklerini tutan tablo
+İki tablo da veritipi olarak aynı değişkenleri tutmaktadır.

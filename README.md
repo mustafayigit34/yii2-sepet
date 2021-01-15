@@ -1,2 +1,2 @@
 # yii2-sepet
-Sepet Module
+Depoya Ürün Ekleme ve Depodan Gönderilen Ürünleri Listeleyen Modülü

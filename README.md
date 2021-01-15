@@ -61,3 +61,27 @@ Depoya Ekle<br><br>
 
 ![adasdasdad](https://user-images.githubusercontent.com/65903573/104785623-02e4dd00-579c-11eb-82d4-20999f62d051.png)
 Kaydedilen Ürünü Güncelleme veya Silme
+
+# Sonuç
+* Basit bir şekilde bir depoya ait girdi-çıktı işlemleri gerçeklenmiştir.
+* Depo içerisindeki ürünlerin özelliklerinin düzenlenebilmesi ve depo içerisinden silinebilmesi mümkün kılınmıştır.
+* Silme işlemi iki tablo için de ilişkili olup depodan silinen ürünleri 'silinenler' adlı başka bir tabloda görüntüleyebilmek sağlanmıştır.
+* Eklenen birçok veri arasından depoda olup olmadığını kontrol etmek istediğiniz ürünü aratmak sağlanmıştır.
+* Basit, sade ve kullanışlı bir modül olduğundan kullanıcı için kolaylık hedeflenmiştir.
+
+# Modül İçeriği
+* controllers
+    - SepetController.php
+* migrations
+    - m210104_185107_sepet.php
+    - m210104_200935_silinenler.php
+* models
+    - Sepet.php
+    - SepetSearch.php
+    - Silinenler.php
+    - SilinenlerSearch.php
+* views
+    - sepet
+        * SepetController.ph
+* Module.php
+

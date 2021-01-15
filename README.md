@@ -49,3 +49,15 @@ public function actionDelete($id)
     return $this->redirect(['index']);
 }
 ```
+# Modülün Görsel Olarak Bazı Gösterimleri
+![asda](https://user-images.githubusercontent.com/65903573/104785258-23606780-579b-11eb-9cce-863be5c3a6b2.png)<br>
+Depodaki Ürünler<br><br>
+
+![adasdqwda](https://user-images.githubusercontent.com/65903573/104785322-47bc4400-579b-11eb-80e8-5e0fe7f1f3c3.png)<br>
+Depodan Silinen Ürünler<br><br>
+
+![asdaasdasd](https://user-images.githubusercontent.com/65903573/104785527-c3b68c00-579b-11eb-9af0-fd548fa7b0c0.png)
+Depoya Ekle<br><br>
+
+![adasdasdad](https://user-images.githubusercontent.com/65903573/104785623-02e4dd00-579c-11eb-82d4-20999f62d051.png)
+Kaydedilen Ürünü Güncelleme veya Silme

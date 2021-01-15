@@ -1,0 +1,36 @@
+{
+  "name": "mustafayigit34/yii2-sepet",
+  "description": "Yii2 Sepet Module",
+  "type": "yii2-extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "mustafayigit34",
+      "email": "mustafaahmet_60@hotmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "yiisoft/yii2": "~2.0.13"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "8.*.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "mustafayigit34\\sepet\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "mustafayigit34\\sepet\\tests\\": "tests"
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ]
+}

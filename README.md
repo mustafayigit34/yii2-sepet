@@ -2,9 +2,9 @@
 Depoya Ürün Ekleme ve Depodan Gönderilen Ürünleri Listeleyen Modülü
 
 # Kurulum
-Kurulum için öncelikle Vagrant sanal makinesine ssh ile bağlanınız. Ardından yii projenizin ana dizinine gidiniz (/var/www/advanced).<br><br>
- `composer require --prefer-dist mustafayigit34/yii2-sepet "dev-main"` <br> komutunu kullanarak modül kurulumunu gerçekleştiriniz. <br><br>
-Daha sonra backend\config\main.php dizinine giderek aşağıdaki düzenlemeyi gerçekleştiriniz.
+1- Kurulum için öncelikle Vagrant sanal makinesine ssh ile bağlanınız. Ardından yii projenizin ana dizinine gidiniz (/var/www/advanced).<br><br>
+ `composer require --prefer-dist mustafayigit34/yii2-sepet "dev-main"` komutunu kullanarak modül kurulumunu gerçekleştiriniz. <br><br>
+2- Daha sonra backend\config\main.php dizinine giderek aşağıdaki düzenlemeyi gerçekleştiriniz.
 ```
 'modules' => [
         'sepet' =>[
@@ -12,3 +12,5 @@ Daha sonra backend\config\main.php dizinine giderek aşağıdaki düzenlemeyi ge
         ]
     ],
 ```
+3- Migration işlemini gerçekleştirmek için ssh kullanarak proje dizinine gidiniz ve aşağıdaki kod satırı ile modüldeki tabloların kurulumunu yapınız.<br>
+`php yii migrate/up --migrationPath=@vendor/sevkikaragol/yii2-note/src/migrations`<br>

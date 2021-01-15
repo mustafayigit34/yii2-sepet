@@ -17,4 +17,10 @@ Depoya Ürün Ekleme ve Depodan Gönderilen Ürünleri Listeleyen Modülü
 
 `php yii migrate/up --migrationPath=@vendor/mustafayigit34/yii2-sepet/src/migrations`
 
-Kurulum aşaması bitmiş bulunmaktadır.
+Kurulum aşaması bitmiş bulunmaktadır.<br>
+http://advanced/backend/web/index.php?r=sepet/sepet/index adresinden modüle erişebilirsiniz.
+
+# Modül İçeriği
+## Veritabanı (Migrations):
+Modül içerisinde iki adet tablo bulunmaktadır, iki tablonun da içeriği şu şekildedir:
+- 

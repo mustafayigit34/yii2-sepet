@@ -1,5 +1,5 @@
 # yii2-sepet
-Depoya Ürün Ekleme ve Depodan Gönderilen Ürünleri Listeleme Modülü
+Depoya Ürün Ekleme ve Depodan Silinen Ürünleri Listeleme Modülü
 
 # Kurulum
 1- Kurulum için öncelikle Vagrant sanal makinesine ssh ile bağlanınız. Ardından yii projenizin ana dizinine gidiniz (/var/www/advanced).<br>
